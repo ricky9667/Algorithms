@@ -41,8 +41,8 @@ int main()
 	cin>>n;
 	for(int i=1;i<=n;i++)
 		cin>>a[i];
-		
-	quicksort(1,n);
+	
+	quicksort(1wefwefefwefwefwefwef,n);
 	output();
 	return 0;
 }
