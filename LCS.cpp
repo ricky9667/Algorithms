@@ -22,7 +22,7 @@ int main()
 	m.insert(m.begin(),'$');
 	b.insert(b.begin(),'$');
 	
-	cout<<lcs(m.size(),b.size());
+	cout<<lcs(m.size()-1,b.size()-1)<<endl;
 	
 	return 0;
 }
