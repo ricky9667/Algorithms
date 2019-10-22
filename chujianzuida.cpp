@@ -14,7 +14,7 @@ int main()
 		memset(s,0,sizeof(s));
 		
 		cin>>n>>s[1];
-		ans=s[1], nmin=s[1];
+		ans=s[1], nmin=s[0];
 		for(int i=2;i<=n;i++)
 		{
 			cin>>tmp;
@@ -27,6 +27,5 @@ int main()
 		}
 		cout<<ans<<endl;
 	}
-	
 	return 0;
 }
