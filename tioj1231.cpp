@@ -48,14 +48,16 @@ int main()
 	}
 	while(ptr<n)
 		pq.push(food[ptr++]);
-
-	if(pq.size()<d) ans-=(d-pq.size());
+	while(pq.size()>d)
+		pq.pop();
+		
+	if(pq.size()<d) 
+		ans-=(d-pq.size());
 	while(!pq.empty())
 	{
 		ans+=pq.top().p.first;
 		pq.pop();
 	}
 	cout<<ans<<endl;
-	
 	return 0;
 }
