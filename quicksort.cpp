@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int n,a[100000];
+int n,a[100000],b;
 
 void output()
 {
